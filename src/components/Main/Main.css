@@ -1,1 +1,47 @@
-.main {}
+.main {
+  width: 100%;
+
+  color: black;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main__body {
+  width: 100%;
+  height: 620px;
+
+  color: white;
+  background-image: url('../../images/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__title {
+  font-family: 'local-exwayer';
+  font-size: 120px;
+  font-weight: lighter;
+  color: #8ac1ff;
+
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  padding-bottom: 20px;
+}
+
+.main__text {
+  font-weight: 100;
+}
+
+.main__button {
+  margin-top: 60px;
+}
