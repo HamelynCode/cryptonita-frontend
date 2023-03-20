@@ -40,7 +40,8 @@
   width: 32px;
   height: 32px;
   border-radius: 100%;
-  background-color: black;
+  font-size: 10px;
+  background-color: rgb(111, 111, 111);
 }
 
 .asset__name {

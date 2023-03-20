@@ -15,16 +15,16 @@ export default function Asset(props){
     <button onClick={handleIsClicked} className={`asset ${isClicked? 'asset_active':''}`}>
       <div className='asset__column'>
         <img className={`asset__arrow ${isClicked? 'asset__arrow_active':''}`} src={arrowIcon} alt='arrow icon'/>
-        <img className='asset__img' src='' alt='Icon'/>
-        <p className='asset__name'>Nombre asset</p>
-        <p className='asset__symbol'>AST</p>
+        <img className='asset__img' src={props.data.image} alt='icon'/>
+        <p className='asset__name'>{props.data.name}</p>
+        <p className='asset__symbol'>{props.data.symbol}</p>
       </div>
       <div className='asset__column'>
-        50.000
+        {props.data.price}
         <p className='asset__symbol'>Usd</p>
       </div>
     </button>
-    {isClicked && <Article/>}
+    {isClicked && <Article data={props.data} getCoinInfo={props.onGetCoinInfo}/>}
   </>
   );
 };

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Asset from '../Asset/Asset';
 import Button from '../Button/Button';
 import './ListAssets.css';
@@ -6,9 +6,6 @@ import './ListAssets.css';
 export default function ListAssets(props){
   const STEP = 10;
   const [limitOfAssets, setLimitOfAssets] = useState(STEP);
-
-  useEffect(()=>{
-  }, []);
 
   function handleVerMasAssets() {
     //incrementar el limite de assets en pantalla
@@ -24,7 +21,7 @@ export default function ListAssets(props){
     <ul className='assets'>
       {props.list.map((data, key) => (
         key < limitOfAssets && <li className='assets__item' key={key}>
-          <Asset />
+          <Asset data={data} onGetCoinInfo={props.onGetCoinInfo}/>
         </li>
       ))}
       <li className='assets__item'>
