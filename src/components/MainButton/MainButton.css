@@ -1,14 +1,15 @@
 .main-button {
   font-family: 'local-ubuntu';
+  font-size: 18px;
   border: none;
   color: white;
   background-color: #2F71E5;
   border-radius: 30px;
-  width: 150px;
-  height: 40px;
+  width: 200px;
+  height: 50px;
 }
 
 .main-button:hover {
-  background-color: #558dec;
-  color: black;
+  background-color: #e0ebff;
+  color: #2F71E5;
 }

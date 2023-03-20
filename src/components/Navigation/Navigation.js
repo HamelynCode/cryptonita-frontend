@@ -1,9 +1,10 @@
 import './Navigation.css';
+import { Link } from 'react-router-dom';
 
 export default function Navigation(){
   return(
-  <>
-    <h2>Navigation</h2>
-  </>
+    <nav className='nav'>
+      <Link className='nav__link' to='/'>Inicio</Link>
+    </nav>
   );
 };

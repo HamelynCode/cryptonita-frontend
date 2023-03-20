@@ -1,0 +1,8 @@
+.logo {
+  font-family: 'local-exwayer';
+  font-weight: lighter;
+
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

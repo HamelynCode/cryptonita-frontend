@@ -1,11 +1,12 @@
 import './Header.css';
 import Navigation from '../Navigation/Navigation';
+import Logo from '../Logo/Logo';
 
 export default function Header(){
   return(
-  <>
-    <Navigation/>
-    <h2>Header</h2>
-  </>
+    <header className='header'>
+      <Logo classes='header__logo'/>
+      <Navigation/>
+    </header>
   );
 };

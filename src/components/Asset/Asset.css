@@ -1,0 +1,50 @@
+.asset {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 10px;
+  padding: 5px 10px;
+}
+.asset:hover {
+  background-color: #c2d8ff;
+}
+.asset_active {
+  background-color: #c2d8ff;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.asset__arrow {
+  rotate: -90deg;
+  transition: linear 40ms;
+}
+.asset__arrow_active {
+  rotate: 0deg;
+}
+
+.asset__column {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.asset__img {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.asset__name {
+  color: #2F71E5;
+}
+
+.asset__symbol {
+  color: rgb(66, 167, 66);
+}
