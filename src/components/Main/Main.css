@@ -34,8 +34,7 @@
   font-size: 120px;
   font-weight: lighter;
   color: #a6e3ff;
-  animation: change-color 5s linear infinite;
-  animation: init-title 1.5s linear;
+  animation: init-title 0.8s linear, change-color 3s linear infinite;
 
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -48,6 +47,7 @@
   font-weight: 100;
   font-size: 15px;
   color: #eee;
+  animation: init-title 2s linear;
 }
 
 .main__button {
@@ -58,10 +58,10 @@
   0% {
     color: #a6e3ff;
   }
-  30% {
+  20% {
     color: white;
   }
-  60% {
+  40% {
     color: #a6e3ff;
   }
 }
