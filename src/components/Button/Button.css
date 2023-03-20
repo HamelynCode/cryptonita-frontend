@@ -1,0 +1,29 @@
+.button {
+  font-family: 'local-ubuntu';
+  font-size: 14px;
+  border: none;
+  color: white;
+  background-color: #2F71E5;
+  border-radius: 30px;
+  width: 100px;
+  height: 30px;
+
+  margin: 20px 10px;
+}
+
+.button_type_confirm {
+  background-color: #2F71E5;
+}
+
+.button_type_reset {
+  background-color: #d12a2a;
+}
+
+.button_type_reset:hover {
+  background-color: #e86e6e;
+}
+
+.button_type_confirm:hover {
+  background-color: #6098fe;
+  color: #ffffff;
+}

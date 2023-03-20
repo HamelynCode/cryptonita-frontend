@@ -10,6 +10,7 @@
 
   gap: 10px;
   padding: 5px 10px;
+  animation: asset-fade-in 300ms linear;
 }
 .asset:hover {
   background-color: #c2d8ff;
@@ -21,6 +22,7 @@
 }
 
 .asset__arrow {
+  width: 10px;
   rotate: -90deg;
   transition: linear 40ms;
 }
@@ -47,4 +49,13 @@
 
 .asset__symbol {
   color: rgb(66, 167, 66);
+}
+
+@keyframes asset-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

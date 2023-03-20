@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
 import Asset from '../Asset/Asset';
+import Button from '../Button/Button';
 import './ListAssets.css';
 
 export default function ListAssets(props){
-  const STEP = 5;
+  const STEP = 10;
   const [limitOfAssets, setLimitOfAssets] = useState(STEP);
 
   useEffect(()=>{
@@ -26,9 +27,9 @@ export default function ListAssets(props){
           <Asset />
         </li>
       ))}
-      <li>
-        {limitOfAssets > STEP && <button onClick={handleVerMenosAssets}>ver menos</button>}
-        {props.list.length > limitOfAssets && <button onClick={handleVerMasAssets}>ver más...</button>}
+      <li className='assets__item'>
+        {limitOfAssets > STEP && <Button classes='button_type_reset' onClick={handleVerMenosAssets} text='ver menos'/>}
+        {props.list.length > limitOfAssets && <Button classes='button_type_confirm' onClick={handleVerMasAssets} text='ver más...'/>}
       </li>
     </ul>
   );

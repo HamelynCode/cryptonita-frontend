@@ -35,7 +35,7 @@
   font-weight: lighter;
   color: #a6e3ff;
   animation: change-color 5s linear infinite;
-  animation: init-title 2s linear;
+  animation: init-title 1.5s linear;
 
   -webkit-user-select: none;
   -ms-user-select: none;

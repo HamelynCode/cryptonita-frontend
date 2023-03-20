@@ -8,7 +8,7 @@ export default function Crypto(){
   <main className='crypto'>
     <Header/>
     <div className='crypto__body'>
-      <ListAssets list={['','','','','','','','','','','']}/>
+      <ListAssets list={['','','','','','','','','','','','','','','','','','','','','','']}/>
     </div>
     <Footer/>
   </main>
