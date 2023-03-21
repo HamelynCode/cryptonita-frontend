@@ -49,3 +49,30 @@
   padding-left: 10px;
   text-align: start;
 }
+
+@media screen and (max-width: 680px) {
+  .about {
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .about__image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .about__title {
+    width: 250px;
+  }
+
+  .about__subtitle {
+    font-size: 14px;
+  }
+
+  .about__description {
+    font-size: 14px;
+    padding: 0;
+  }
+}

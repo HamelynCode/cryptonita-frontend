@@ -20,3 +20,21 @@
 .footer__text {
   font-size: 18px;
 }
+
+@media screen and (max-width: 680px) {
+  .footer {
+    padding: 10px 0px;
+  }
+
+  .footer__link-img {
+    width: 150px;
+  }
+
+  .footer__vendor {
+    font-size: 14px;
+  }
+
+  .footer__text {
+    font-size: 16px;
+  }
+}

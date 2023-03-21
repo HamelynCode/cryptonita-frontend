@@ -10,3 +10,9 @@
 .assets__item {
   width: 60%;
 }
+
+@media screen and (max-width: 680px) {
+  .assets__item {
+    width: 90%;
+  }
+}

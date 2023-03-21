@@ -54,6 +54,27 @@
   margin-top: 60px;
 }
 
+@media screen and (max-width: 680px) {
+  .main__body {
+    height: 400px;
+  }
+
+  .main__title {
+    font-size: 60px;
+  }
+
+  .main__text {
+    font-size: 14px;
+    padding: 0px 20px;
+  }
+
+  .main__button {
+    margin-top: 20px;
+  }
+}
+
+
+
 @keyframes change-color {
   0% {
     color: #a6e3ff;

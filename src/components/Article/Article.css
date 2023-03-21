@@ -11,15 +11,6 @@
   animation: aparecer 40ms linear;
 }
 
-@keyframes aparecer {
-  0% {
-    height: 10px;
-  }
-  100% {
-    height: 300px;
-  }
-}
-
 .article__img {
   width: 100px;
   height: 100px;
@@ -54,4 +45,33 @@
   font-weight: 500;
 
   padding-top: 30px;
+}
+
+@media screen and (max-width: 680px) {
+  .article {
+    padding: 20px;
+  }
+
+  .article__img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .article__title {
+    font-size: 20px;
+  }
+
+  .article__text {
+    font-size: 13px;
+  }
+}
+
+
+@keyframes aparecer {
+  0% {
+    height: 10px;
+  }
+  100% {
+    height: 300px;
+  }
 }

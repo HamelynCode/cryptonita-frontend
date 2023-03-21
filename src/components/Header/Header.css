@@ -17,3 +17,9 @@
   color: white;
   padding-left: 50px;
 }
+
+@media screen and (max-width: 680px) {
+  .header__logo {
+    font-size: 30px;
+  }
+}

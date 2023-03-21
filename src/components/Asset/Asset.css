@@ -60,3 +60,14 @@
     opacity: 1;
   }
 }
+
+
+@media screen and (max-width: 680px) {
+  .asset {
+    font-size: 12px;
+  }
+
+  .asset__arrow {
+    width: 8px;
+  }
+}
