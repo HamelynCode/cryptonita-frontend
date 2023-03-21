@@ -3,7 +3,7 @@
   border: none;
   border-radius: 20px;
   background-color: white;
-  
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,7 +45,7 @@
 }
 
 .asset__name {
-  color: #2F71E5;
+  color: #2f71e5;
 }
 
 .asset__symbol {
@@ -60,7 +60,6 @@
     opacity: 1;
   }
 }
-
 
 @media screen and (max-width: 680px) {
   .asset {

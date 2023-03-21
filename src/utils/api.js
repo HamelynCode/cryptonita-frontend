@@ -24,10 +24,10 @@ class Api {
 }
 
 const api = new Api({
-  url: 'https://api.coingecko.com/api/v3',
+  url: "https://api.coingecko.com/api/v3",
   headers: {
-    'Content-Type': 'application/json',
-  }
+    "Content-Type": "application/json",
+  },
 });
 
 export default api;

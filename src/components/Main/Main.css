@@ -15,7 +15,7 @@
   height: 650px;
 
   color: white;
-  background-image: url('../../images/fondo.jpg');
+  background-image: url("../../images/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 80px;
@@ -30,7 +30,7 @@
 }
 
 .main__title {
-  font-family: 'local-exwayer';
+  font-family: "local-exwayer";
   font-size: 120px;
   font-weight: lighter;
   color: #a6e3ff;
@@ -73,8 +73,6 @@
   }
 }
 
-
-
 @keyframes change-color {
   0% {
     color: #a6e3ff;
@@ -89,9 +87,9 @@
 
 @keyframes init-title {
   0% {
-    opacity: 0.0;
+    opacity: 0;
   }
   100% {
-    opacity: 1.0;
+    opacity: 1;
   }
 }

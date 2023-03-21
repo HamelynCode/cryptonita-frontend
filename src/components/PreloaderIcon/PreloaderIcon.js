@@ -1,9 +1,9 @@
-import './PreloaderIcon.css';
+import "./PreloaderIcon.css";
 
-export default function PreloaderIcon(){
-  return(
-    <div className='preloader-icon'>
-      <div className='preloader-icon__symbol'></div>
+export default function PreloaderIcon() {
+  return (
+    <div className="preloader-icon">
+      <div className="preloader-icon__symbol"></div>
     </div>
   );
-};
+}

@@ -39,7 +39,7 @@
 
 .article__text {
   pointer-events: none;
-  
+
   text-align: start;
   font-size: 14px;
   font-weight: 500;
@@ -65,7 +65,6 @@
     font-size: 13px;
   }
 }
-
 
 @keyframes aparecer {
   0% {
