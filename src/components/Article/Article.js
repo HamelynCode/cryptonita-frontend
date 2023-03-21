@@ -11,7 +11,7 @@ export default function Article(props){
         setData(x);
       });
     }
-  }, [data]);
+  }, [data, props]);
 
   return(
     <article className='article'>
