@@ -1,0 +1,72 @@
+.asset {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 10px;
+  padding: 5px 10px;
+  animation: asset-fade-in 300ms linear;
+}
+.asset:hover {
+  background-color: #c2d8ff;
+}
+.asset_active {
+  background-color: #c2d8ff;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.asset__arrow {
+  width: 10px;
+  rotate: -90deg;
+  transition: linear 40ms;
+}
+.asset__arrow_active {
+  rotate: 0deg;
+}
+
+.asset__column {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.asset__img {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  font-size: 10px;
+  background-color: rgb(111, 111, 111);
+}
+
+.asset__name {
+  color: #2f71e5;
+}
+
+.asset__symbol {
+  color: rgb(66, 167, 66);
+}
+
+@keyframes asset-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .asset {
+    font-size: 12px;
+  }
+
+  .asset__arrow {
+    width: 8px;
+  }
+}

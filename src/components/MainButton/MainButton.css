@@ -1,0 +1,23 @@
+.main-button {
+  font-family: "local-ubuntu";
+  font-size: 18px;
+  border: none;
+  color: white;
+  background-color: #2f71e5;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+}
+
+.main-button:hover {
+  background-color: #e0ebff;
+  color: #2f71e5;
+}
+
+@media screen and (max-width: 680px) {
+  .main-button {
+    font-size: 16px;
+    width: 100px;
+    height: 30px;
+  }
+}

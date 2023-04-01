@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2px 0px;
+  background-color: #2f71e5;
+
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.header__logo {
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 680px) {
+  .header__logo {
+    font-size: 30px;
+  }
+}
